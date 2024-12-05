@@ -86,10 +86,16 @@
     combos {
       compatible = "zmk,combos";
       combo_nav {
-        timeout-ms = <100>;
+        timeout-ms = <25>;
         key-positions = <19 20>;
         bindings = <&to 2>;
         layers = <0>;
+      };
+      combo_default {
+        timeout-ms = <25>;
+        key-positions = <19 20>;
+        bindings = <&to 0>;
+        layers = <2>;
       };
     };
 };
