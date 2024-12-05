@@ -90,6 +90,6 @@
         key-positions = <19 20>;
         bindings = <&to layer2>;
         layers = <0>;
-      }
-    }
+      };
+    };
 };
