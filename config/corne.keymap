@@ -85,7 +85,7 @@
 
     combos {
       compatible = "zmk,combos";
-      combo_nav = {
+      combo_nav {
         timeout-ms = <100>;
         key-positions = <19 20>;
         bindings = <&to layer2>;
